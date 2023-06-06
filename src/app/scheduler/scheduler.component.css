@@ -1,0 +1,29 @@
+.controls {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.controls input[type=range] {
+  width: 80px;
+  margin: 0px 5px;
+}
+.controls button {
+  width: 25px;
+  height: 25px;
+  color: "#000";
+  background-color: #3c78d8;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.controls button:focus {
+  outline: none;
+}
+#label {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.scheduler_default_rowheader, .scheduler_default_corner{
+  background: #000 !important;
+}

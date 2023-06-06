@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+.scheduler_default_rowheader, div.scheduler_default_rowheader_inner {
+  background: pink;
+  border-radius: 20px;
+}
+
+.active{
+  background: red !important;
+}
